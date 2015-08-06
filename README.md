@@ -15,4 +15,8 @@ first, compile the plugin and install in to plugin dir
     
 CAUTION: mysql plugins MUST be built using the same version of the source code and the same build arguments. If mysqld is built as a debug version without cmake parameter -DBUILD_CONFIG, the parameter must not be added when compiling plugins.
 
+then install and initialize the plugin
+
     mysql ... < scripts/install_spider.sql
+
+for more documents, see https://mariadb.com/kb/en/mariadb/spider/
