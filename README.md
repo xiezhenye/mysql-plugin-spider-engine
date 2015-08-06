@@ -8,7 +8,7 @@ first, compile the plugin and install in to plugin dir
 
     cp -r src /path/to/mysql-src/storage/spider
     cd /path/to/mysql-src
-    cmake . -DBUILD_CONFIG=mysql_release -DCMAKE_INSTALL_PREFIX=/opt/mysql-5.6.26 -DCMAKE_INSTALL_PREFIX=<mysql install dir>
+    cmake . -DBUILD_CONFIG=mysql_release -DCMAKE_INSTALL_PREFIX=<mysql install dir>
     cd storage/spider
     make
     make install
